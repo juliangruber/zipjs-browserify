@@ -1,6 +1,6 @@
 {
   "name": "zipjs-browserify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browserify port of the awesome zip.js library",
   "repository": "juliangruber/zipjs-browserify",
   "license": "BSD",
