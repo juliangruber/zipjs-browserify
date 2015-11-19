@@ -6,10 +6,10 @@ function createUrl(src){
   return URL.createObjectURL(blob);
 }
 
-var zWorker = createUrl(fs.readFileSync('./vendor/z-worker.js', 'utf8'));
+var zWorker = createUrl(fs.readFileSync(__dirname + '/vendor/z-worker.js', 'utf8'));
 zip.workerScripts = {
-  deflater: [zWorker, createUrl(fs.readFileSync('./vendor/deflate.js', 'utf8'))],
-  inflater: [zWorker, createUrl(fs.readFileSync('./vendor/inflate.js', 'utf8'))]
+  deflater: [zWorker, createUrl(fs.readFileSync(__dirname + '/vendor/deflate.js', 'utf8'))],
+  inflater: [zWorker, createUrl(fs.readFileSync(__dirname + '/vendor/inflate.js', 'utf8'))]
 };
 
 module.exports = zip;
