@@ -23,7 +23,7 @@
   "devDependencies": {
     "browserify": "^13.1.1",
     "tape": "^4.2.2",
-    "tape-run": "^2.0.0"
+    "tape-run": "^2.1.5"
   },
   "scripts": {
     "test": "browserify test.js | tape-run"
