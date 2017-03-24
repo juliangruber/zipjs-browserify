@@ -6,7 +6,7 @@
   "license": "BSD",
   "dependencies": {
     "brfs": "^1.4.1",
-    "browserify-shim": "^3.8.11"
+    "browserify-shim": "^3.8.14"
   },
   "browserify": {
     "transform": [
